@@ -28,7 +28,7 @@ so you can compile your Java code, run any tests, and finish by packaging the co
 ## Running Application
 
 
-### [GradesHistogram](seip2019/gradeshistogram/README.md)
+### [GradesHistogram](seip2020/gradeshistogram/README.md)
 The application can run by giving one command line argument.
 The command that you need to type after building the project is:
 ```
