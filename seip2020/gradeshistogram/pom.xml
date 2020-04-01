@@ -8,8 +8,8 @@
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 	<artifactId>gradeshistogram</artifactId>
-	<name>Save Grades </name>
-	<description>This is a Maven module</description>
+	<name>Show Grades </name>
+	<description>GradeHistogram produces a histogram based on a file with grades</description>
 	<dependencies>
 		<dependency>
 			<groupId>org.jfree</groupId>
