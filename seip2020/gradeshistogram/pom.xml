@@ -27,7 +27,7 @@
 					<archive>
 						<manifest>
 							<addClasspath>true</addClasspath>
-							<mainClass>se2019package.HistogramGenerator</mainClass>
+							<mainClass>se2020package.HistogramGenerator</mainClass>
 						</manifest>
 					</archive>
 					<descriptorRefs>
