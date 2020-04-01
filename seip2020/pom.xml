@@ -6,8 +6,8 @@
 	<artifactId>seip2020_practical_assignments</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
-	<name>Parent-PracticeMaven</name>
-	<description>This project is about getting more familiar with build automation tools</description>
+	<name>PracticeSoftwareEngineeringTools</name>
+	<description>This project is about getting more familiar with good practices of software engineering.</description>
 	
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
