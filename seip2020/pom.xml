@@ -20,7 +20,7 @@
 			<plugin>
 				<groupId>org.jacoco</groupId>
 				<artifactId>jacoco-maven-plugin</artifactId>
-				<version>0.8.3</version>
+				<version>0.8.5</version>
 				<configuration>
 					<destFile>${basedir}/target/coverage-reports/jacoco-unit.exec</destFile>
 					<dataFile>${basedir}/target/coverage-reports/jacoco-unit.exec</dataFile>
@@ -58,5 +58,6 @@
 	
 	<modules>
 		<module>gradeshistogram</module>
+		<module>unittesting</module>
 	</modules>
 </project>
