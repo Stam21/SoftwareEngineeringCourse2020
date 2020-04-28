@@ -1,4 +1,7 @@
 # SoftwareEngineeringCourse2020
+[![Build Status](https://travis-ci.com/Stam21/SoftwareEngineeringCourse2020.svg?token=cLJyNCHjqFzPy5Mv4uzh&branch=development)](https://travis-ci.com/Stam21/SoftwareEngineeringCourse2020)
+[![codecov](https://codecov.io/gh/Stam21/SoftwareEngineeringCourse2020/branch/development/graph/badge.svg?token=qylM4i2YVL)](https://codecov.io/gh/Stam21/SoftwareEngineeringCourse2020)
+
 This is a repository for the purposes of the course Software Engineering in Practice.
 
 ## Built With 
@@ -36,6 +39,8 @@ java -jar <dependencies.jar> <filepath>
 ```
 [README](seip2019/gradeshistogram/README.md) | For more info about this application
 
+### [Unit Testing](seip2020/unittesting/README.md)
+[README](seip2020/unittesting/README.md) | For more info about this application
 
 ## Versions
 
