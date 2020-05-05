@@ -44,11 +44,29 @@ public class ArithmeticOperationsTest {
 	
 	// Test that multiply with negative throws exception.
 	@Test
-	public void test_multiply_negative() {
+	public void test_multiply_both_negative() {
 
 		exception.expect(IllegalArgumentException.class);
 
 		aop.multiply(-4,-2);
+	}
+
+	// Test that multiply with negative throws exception.
+	@Test
+	public void test_multiply_x_negative() {
+
+		exception.expect(IllegalArgumentException.class);
+
+		aop.multiply(-4,2);
+	}
+	
+	// Test that multiply with negative throws exception.
+	@Test
+	public void test_multiply_y_negative() {
+
+		exception.expect(IllegalArgumentException.class);
+
+		aop.multiply(4,-2);
 	}
 	
 	// Test if the result of the multiplication is correct.
