@@ -15,6 +15,7 @@ import org.junit.Rule;
 import org.junit.Assert;
 import org.junit.Test;
 import java.io.IOException;
+import static org.mockito.Mockito.*;
 
 public class FileIOTest {
 
@@ -71,11 +72,6 @@ public class FileIOTest {
 		fio.readFile(resourceDirectory.toString());
 	}
 	
-	// test_ioexception method tests the case whether an IOException is thrown.
-	@Test
-	public void test_ioexception() throws IOException{
-		Path resourceDirectory = Paths.get("src", "test", "resources", "InvalidContext.txt");
-		fio.readFile(resourceDirectory.toString()); 
-	
-	}
+
+
 }
