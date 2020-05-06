@@ -1,0 +1,17 @@
+language: java                
+
+jdk:                         
+  - oraclejdk14
+  
+branches:                 
+only:
+  - master
+  
+before_script: 
+  - cd seip2020
+ 
+script:
+  - mvn clean package jacoco:report
+
+after_success:
+  - bash <(curl -s https://codecov.io/bash) -t 1128436d-92dd-4ae4-9f5c-3b38d60d306f
